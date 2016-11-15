@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="4D.fx" />
+    <FxCompile Include="Bloom.fx" />
+    <FxCompile Include="fxaa.fx" />
+    <FxCompile Include="loader.fx" />
+    <FxCompile Include="glyph.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DxManager.cpp" />
+    <ClCompile Include="LoaderEffect.cpp" />
+    <ClCompile Include="PolychoraSettings.cpp" />
+    <ClCompile Include="ScreenSaverModeHandler.cpp" />
+    <ClCompile Include="ScreenSpaceFxProcessor.cpp" />
+    <ClCompile Include="Polychora.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Viewpoint.cpp" />
+    <ClCompile Include="FontRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DxManager.h" />
+    <ClInclude Include="LoaderEffect.h" />
+    <ClInclude Include="PolychoraSettings.h" />
+    <ClInclude Include="ScreenSaverModeHandler.h" />
+    <ClInclude Include="ScreenSpaceFxProcessor.h" />
+    <ClInclude Include="Polychora.h" />
+    <CLInclude Include="resource.h" />
+    <ClInclude Include="Viewpoint.h" />
+    <ClInclude Include="FontRenderer.h" />
+    <ClInclude Include="ethnocentric_places.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="polychora.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico" />
+    <Image Include="nebula.dds" />
+    <Image Include="noise.dds" />
+    <Image Include="ethnocentric_font_atlas.dds" />
+  </ItemGroup>
+</Project>
